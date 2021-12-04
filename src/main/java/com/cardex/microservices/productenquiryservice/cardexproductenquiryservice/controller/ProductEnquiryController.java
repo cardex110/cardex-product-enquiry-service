@@ -21,7 +21,7 @@ public class ProductEnquiryController {
 
         ProductEnquiryBean productEnquiryBean=client.checkProductStock(name,availability);
 
-        double totalPrice= productEnquiryBean.getTotalPrice()*unit;
+        double totalPrice= productEnquiryBean.getProductPrice().doubleValue()*unit;
         double discounts=productEnquiryBean.getDiscountOffer();
         double discountPrice=totalPrice-totalPrice*discounts/100;
 
