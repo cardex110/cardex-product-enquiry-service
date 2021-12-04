@@ -1,10 +1,10 @@
-package com.cardex.microservices.productenquiryservice;
+package com.cardex.microservices.productenquiryservice.cardexproductenquiryservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CardexProductEnquiryServiceApplicationTests {
+class CardexProductEnquiryBeanServiceApplicationTests {
 
     @Test
     void contextLoads() {

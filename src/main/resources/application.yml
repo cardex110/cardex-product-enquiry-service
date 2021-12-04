@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: cardex-product-enquiry-service
+
+server:
+  port: ${port:8700}
+
