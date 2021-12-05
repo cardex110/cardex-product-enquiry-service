@@ -1,10 +1,7 @@
 spring:
   application:
     name: cardex-product-enquiry-service
-  cloud:
-    loadbalancer:
-      ribbon:
-        enabled: false
+
 
 server:
   port: ${port:8700}
